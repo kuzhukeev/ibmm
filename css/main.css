@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     background-color: #fff;
     display: block;
+    padding: 0;
 }
 
 @font-face {
@@ -213,6 +214,10 @@ body {
 }
 
 @media (max-width: 767px) {
+
+    body {
+        padding: 70px 0 0;
+    }
 
     #logo {
         position: fixed;
